@@ -1,0 +1,54 @@
+<div class="p-4">
+
+  <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">Crear</button>
+</div>  
+
+<div class="p-6">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    📦 Celdas del Parqueadero
+  </h2>
+
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div
+      *ngFor="let celda of celdas"
+      class="rounded-lg p-6 border shadow-sm text-center"
+      [ngClass]="{
+        'bg-green-100 border-green-300': celda.estado === 'disponible',
+        'bg-red-100 border-red-300': celda.estado === 'ocupada',
+        'bg-yellow-100 border-yellow-300': celda.estado === 'reservada'
+      }"
+    >
+      <!-- Icono según estado -->
+      <div class="mb-4">
+        <div
+          class="w-8 h-8 mx-auto rounded-full flex items-center justify-center text-white"
+          [ngClass]="{
+            'bg-green-600': celda.estado === 'disponible',
+            'bg-red-600': celda.estado === 'ocupada',
+            'bg-yellow-600': celda.estado === 'reservada'
+          }"
+        >
+          <ng-container [ngSwitch]="celda.estado">
+            <span *ngSwitchCase="'disponible'">⬛</span>
+            <span *ngSwitchCase="'ocupada'">🚗</span>
+            <span *ngSwitchCase="'reservada'">🕒</span>
+          </ng-container>
+        </div>
+      </div>
+
+      <!-- Nombre y estado -->
+      <p class="text-lg font-semibold">{{ celda.nombre }}</p>
+      <p
+        class="mt-1"
+        [ngClass]="{
+          'text-green-600': celda.estado === 'disponible',
+          'text-red-600': celda.estado === 'ocupada',
+          'text-yellow-600': celda.estado === 'reservada'
+        }"
+      >
+        {{ celda.estado | titlecase }}
+      </p>
+    </div>
+  </div>
+
