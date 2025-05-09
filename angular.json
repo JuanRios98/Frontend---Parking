@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "fronted-parking": {
       "projectType": "application",
       "schematics": {},
@@ -22,6 +23,11 @@
         }
       },
 >>>>>>> master
+=======
+    "fronted-parking": {
+      "projectType": "application",
+      "schematics": {},
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -30,10 +36,14 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputPath": "dist/fronted-parking",
 =======
             "outputPath": "dist/parking-frontend",
 >>>>>>> master
+=======
+            "outputPath": "dist/fronted-parking",
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -76,6 +86,7 @@
               "optimization": false,
               "extractLicenses": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
               "sourceMap": true
 =======
               "sourceMap": true,
@@ -86,6 +97,9 @@
                 }
               ]
 >>>>>>> master
+=======
+              "sourceMap": true
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
             }
           },
           "defaultConfiguration": "production"
@@ -95,16 +109,22 @@
           "configurations": {
             "production": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
               "buildTarget": "fronted-parking:build:production"
             },
             "development": {
               "buildTarget": "fronted-parking:build:development"
+<<<<<<< HEAD
 =======
               "buildTarget": "Parking-Frontend:build:production"
             },
             "development": {
               "buildTarget": "Parking-Frontend:build:development"
 >>>>>>> master
+=======
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
             }
           },
           "defaultConfiguration": "development"
@@ -128,6 +148,7 @@
             ],
             "styles": [
 <<<<<<< HEAD
+<<<<<<< HEAD
               "src/styles.css"
             ],
             "scripts": []
@@ -141,6 +162,11 @@
               
             ]
 >>>>>>> master
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
           }
         }
       }

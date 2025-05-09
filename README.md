@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FrontedParking
 =======
 # ParkingFrontend
 >>>>>>> master
+=======
+# FrontedParking
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 

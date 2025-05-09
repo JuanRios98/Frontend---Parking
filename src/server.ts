@@ -4,10 +4,14 @@ import express from 'express';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import bootstrap from './main.server';
 =======
 import AppServerModule from './main.server';
 >>>>>>> master
+=======
+import bootstrap from './main.server';
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
 
 const serverDistFolder = dirname(fileURLToPath(import.meta.url));
 const browserDistFolder = resolve(serverDistFolder, '../browser');
@@ -48,10 +52,14 @@ app.get('**', (req, res, next) => {
   commonEngine
     .render({
 <<<<<<< HEAD
+<<<<<<< HEAD
       bootstrap,
 =======
       bootstrap: AppServerModule,
 >>>>>>> master
+=======
+      bootstrap,
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
       documentFilePath: indexHtml,
       url: `${protocol}://${headers.host}${originalUrl}`,
       publicPath: browserDistFolder,

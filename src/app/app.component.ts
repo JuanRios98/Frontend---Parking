@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -10,6 +13,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'fronted-parking';
+<<<<<<< HEAD
 =======
 
 @Component({
@@ -21,4 +25,6 @@ export class AppComponent {
 export class AppComponent {
   title = 'Parking-Frontend';
 >>>>>>> master
+=======
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
 }

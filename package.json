@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "fronted-parking",
 =======
   "name": "parking-frontend",
 >>>>>>> master
+=======
+  "name": "fronted-parking",
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,10 +16,14 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "serve:ssr:fronted-parking": "node dist/fronted-parking/server/server.mjs"
 =======
     "serve:ssr:Parking-Frontend": "node dist/parking-frontend/server/server.mjs"
 >>>>>>> master
+=======
+    "serve:ssr:fronted-parking": "node dist/fronted-parking/server/server.mjs"
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
   },
   "private": true,
   "dependencies": {
@@ -29,6 +37,7 @@
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.9",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
 =======
@@ -38,6 +47,10 @@
     "rxjs": "~7.8.0",
     "sweetalert2": "^11.20.0",
 >>>>>>> master
+=======
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
@@ -57,7 +70,11 @@
     "typescript": "~5.7.2"
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> master
+=======
+}
+>>>>>>> 6a38167a0784fa5dad811e1c88df6a98e7a373d6
